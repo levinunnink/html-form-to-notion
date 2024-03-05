@@ -4,12 +4,17 @@ How to submit a simple HTML form to a Notion DB using only HTML and JavaScript /
 
 This example shows how to set up a mailing list form that sends data to a Notion DB but you can use it for any sort of data.
 
-Requirements: 
+**Contents**
+1. [Set up your Notion integration](#1-set-up-your-notion-integration)
+2. [Set up your Notion databse](#2-set-up-your-notion-database)
+3. [Connect your integration to the databse](#3-connect-your-integration-to-the-database)
+4. [Create your html form and backend](#4-create-your-html-form-and-backend)
+5. Running the example
+6. Issues
 
-- HTML
-- Node.js v18+
+## Guide
 
-## 1. Set up your Notion integration
+### 1. Set up your Notion integration
 
 <img src="https://smmallcdn.net/levi/1709650003838/create-integration.gif" />
 
@@ -18,13 +23,13 @@ Go to the [Notion Integrations page](https://www.notion.so/my-integrations) and 
 
 Note: _You should not use this integration secret on the front end._ 
 
-## 2. Set up your Notion Database
+### 2. Set up your Notion Database
 
 <img src="https://smmallcdn.net/levi/1709650420230/CleanShot%202024-03-05%20at%2009.51.49.gif" />
 
 Create a Notion database to store the form submissions. Note the database ID from the URL. In this example we're creating a database with with two properties: `Name` and `Email`.
 
-## 3. Connect your integration to the database
+### 3. Connect your integration to the database
 
 <img src="https://smmallcdn.net/levi/1709652250712/CleanShot%202024-03-05%20at%2010.23.02.gif" />
 
@@ -35,7 +40,7 @@ Don&apos;t miss this step. You need to give your Notion integration access to th
 
 Your integration should appear beneath the "Connections" section on the menu now
 
-## 4. Create your html form and backend
+### 4. Create your html form and backend
 
 First create a file named `server.js` with the following content:
 
@@ -153,6 +158,21 @@ Here's a minimal HTML form that posts to the server we created.
 Once this is done, you're good to go. Your form data should now be saved directly and securely into Notion each time you submit.
 
 <img src="https://smmallcdn.net/levi/1709652355236/CleanShot%202024-03-05%20at%2010.25.33.gif" />
+
+## Running the example
+
+To run the example and test it yourself, follow these steps. Note, you will need Node v18+ installed to run the example.
+
+```bash
+% git clone https://github.com/levinunnink/html-form-to-notion.git
+% cd html-form-to-notion/example
+% npm i
+% npm run start
+```
+
+For the example to work you will need to update the `server.js` with your `YOUR_NOTION_DB_ID` and `YOUR_NOTION_SECRET` values from the steps above.
+
+Open `http://localhost:3000` to view the form.
 
 ## Issues? 
 
