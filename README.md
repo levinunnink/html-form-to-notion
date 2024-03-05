@@ -9,7 +9,7 @@ This example shows how to set up a mailing list form that sends data to a Notion
 2. [Set up your Notion databse](#2-set-up-your-notion-database)
 3. [Connect your integration to the databse](#3-connect-your-integration-to-the-database)
 4. [Create your html form and backend](#4-create-your-html-form-and-backend)
-5. [Running the example](#running-the-example)
+5. [Running the examples](#running-the-examples)
 6. [Issues](#issues)
 
 ## Guide
