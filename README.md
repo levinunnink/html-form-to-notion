@@ -159,13 +159,15 @@ Once this is done, you're good to go. Your form data should now be saved directl
 
 <img src="https://smmallcdn.net/levi/1709652355236/CleanShot%202024-03-05%20at%2010.25.33.gif" />
 
-## Running the example
+## Running the examples
+
+### Basic Example
 
 To run the example and test it yourself, follow these steps. Note, you will need Node v18+ installed to run the example.
 
 ```bash
 % git clone https://github.com/levinunnink/html-form-to-notion.git
-% cd html-form-to-notion/example
+% cd html-form-to-notion/examples/basic
 % npm i
 % npm run start
 ```
@@ -173,6 +175,27 @@ To run the example and test it yourself, follow these steps. Note, you will need
 For the example to work you will need to update the `server.js` with your `YOUR_NOTION_DB_ID` and `YOUR_NOTION_SECRET` values from the steps above.
 
 Open `http://localhost:3000` to view the form.
+
+### NextJS Example
+
+To run the NextJS example, follow these steps.
+
+```bash
+% git clone https://github.com/levinunnink/html-form-to-notion.git
+% cd html-form-to-notion/examples/nextjs
+```
+
+Create a `.env` file in the nextjs directory with the following values:
+
+- `NOTION_DB_ID`: The ID of your Notion db.
+- `NOTION_SECRET`: The secret token of your Notion Integraiton.
+
+Then run
+
+```bash
+% npm i
+% npm dev
+```
 
 ## Issues? 
 
