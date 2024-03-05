@@ -1,6 +1,6 @@
 # Submit a HTML form to Notion
 
-How to submit a simple HTML form to a Notion DB using only HTML and JavaScript / Node.js.
+How to submit a simple HTML form to a Notion DB using only HTML and JavaScript / Node.js. A step by step guide with example source code.
 
 This example shows how to set up a mailing list form that sends data to a Notion DB but you can use it for any sort of data.
 
@@ -10,7 +10,7 @@ This example shows how to set up a mailing list form that sends data to a Notion
 3. [Connect your integration to the databse](#3-connect-your-integration-to-the-database)
 4. [Create your html form and backend](#4-create-your-html-form-and-backend)
 5. [Running the example](#running-the-example)
-6. [Issues](#issues]
+6. [Issues](#issues)
 
 ## Guide
 
