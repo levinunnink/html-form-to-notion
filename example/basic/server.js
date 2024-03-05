@@ -16,7 +16,7 @@ app.get('/', async (req, res) => {
 app.post('/submit-to-notion', async (req, res) => {
     try {
         const { name, email } = req.body;
-        const notionDatabaseId = 'YOUR_NOTION_DB';
+        const notionDatabaseId = 'YOUR_NOTION_DB_ID';
         const integrationToken = 'YOUR_NOTION_SECRET';
 
         const url = `https://api.notion.com/v1/pages`;
