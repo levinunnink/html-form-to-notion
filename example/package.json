@@ -1,0 +1,15 @@
+{
+  "name": "example-notion-form",
+  "version": "1.0.0",
+  "description": "A simple example of how to submit a HTML form to Notion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "levi@smmall.site",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "node-fetch": "^3.3.2"
+  }
+}
