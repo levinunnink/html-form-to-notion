@@ -11,7 +11,7 @@ Requirements:
 
 ## 1. Set up your Notion integration
 
-<img src="https://smmallcdn.net/levi/1709650003838/create-integration.gif" width="450" />
+<img src="https://smmallcdn.net/levi/1709650003838/create-integration.gif" />
 
 
 Go to the [Notion Integrations page](https://www.notion.so/my-integrations) and create a new integration for your workspace. Once you're done, copy the `Integration Secret` token.
@@ -20,13 +20,13 @@ Note: _You should not use this integration secret on the front end._
 
 ## 2. Set up your Notion Database
 
-<img src="https://smmallcdn.net/levi/1709650420230/CleanShot%202024-03-05%20at%2009.51.49.gif" width="450" />
+<img src="https://smmallcdn.net/levi/1709650420230/CleanShot%202024-03-05%20at%2009.51.49.gif" />
 
 Create a Notion database to store the form submissions. Note the database ID from the URL. In this example we're creating a database with with two properties: `Name` and `Email`.
 
 ## 3. Connect your integration to the database
 
-<img src="https://smmallcdn.net/levi/1709652250712/CleanShot%202024-03-05%20at%2010.23.02.gif" width="450" />
+<img src="https://smmallcdn.net/levi/1709652250712/CleanShot%202024-03-05%20at%2010.23.02.gif" />
 
 Don&apos;t miss this step. You need to give your Notion integration access to the new database. You can do this by following these steps:
 
@@ -152,7 +152,7 @@ Here's a minimal HTML form that posts to the server we created.
 
 Once this is done, you're good to go. Your form data should now be saved directly and securely into Notion each time you submit.
 
-<img src="https://smmallcdn.net/levi/1709652355236/CleanShot%202024-03-05%20at%2010.25.33.gif" width="450" />
+<img src="https://smmallcdn.net/levi/1709652355236/CleanShot%202024-03-05%20at%2010.25.33.gif" />
 
 ## Issues? 
 
