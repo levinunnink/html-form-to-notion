@@ -199,5 +199,5 @@ Then run
 
 ## Issues? 
 
-If you want to submit your HTML forms to Notion without any backend, try a free service like [Notion Monkey](https://notionmonkey.io), which allows you to do submit forms to Notion without any backend code.
+If you want to submit your HTML forms to Notion without any backend, try a free service like [Notion Monkey](https://sheetmonkey.io/notion), which allows you to do submit forms to Notion without any backend code.
 
