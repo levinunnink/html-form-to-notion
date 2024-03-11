@@ -201,3 +201,8 @@ Then run
 
 If you want to submit your HTML forms to Notion without any backend, try a free service like [Notion Monkey](https://sheetmonkey.io/notion), which allows you to do submit forms to Notion without any backend code.
 
+## Thanks
+
+This example is inspired by these guides:
+
+- [How to submit a nextjs form to Notion](https://sheetmonkey.io/blog/how-to-submit-a-nextjs-form-to-notion)
